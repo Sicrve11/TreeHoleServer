@@ -1,1 +1,0 @@
-g++ -g -Wall -std=c++11 -D_PTHREADS -Wno-unused-parameter -O0 -rdynamic CMakeFiles/StressTest.dir/StressTest.cpp.o CMakeFiles/StressTest.dir/__/SkipList.cpp.o CMakeFiles/StressTest.dir/__/TreeHole.cpp.o -o StressTest  ../base/libserver_base.a -lpthread -lrt 

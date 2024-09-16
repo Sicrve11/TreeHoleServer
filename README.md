@@ -86,15 +86,19 @@
 
 ## todo list
 
-**服务器性能方面：**增加内存池，实现内存复用。
+- 服务器性能方面：增加内存池，实现内存复用。
 
-**应用层功能方面：**这个项目目前只实现了公共树洞，在之后打算新增多频道树洞功能，并对每个频道计算讨论热度等，类似于匿名微博。此外，考虑使用QT进行开发桌面应用。
+- 应用层功能方面：这个项目目前只实现了公共树洞，在之后打算新增多频道树洞功能，并对每个频道计算讨论热度等，类似于匿名微博。此外，考虑使用QT进行开发桌面应用。
 
 ## 参考内容
 
 https://github.com/linyacool/WebServer/tree/master
 
+https://github.com/qinguoyi/TinyWebServer
 
+https://www.cnblogs.com/dogwealth/p/17938194
+
+Linux高性能服务器编程，游双著.
 
 
 
