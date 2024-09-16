@@ -25,11 +25,11 @@ sh ./build.sh
 
 ### 1.2 留言
 
-![留言1](./assets/ly1.png)
+![留言1](./assets/ly3.png)
 
 ![留言1](./assets/ly2.png)
 
-![留言1](./assets/ly3.png)
+![留言1](./assets/ly1.png)
 
 ### 1.3 获取留言
 
