@@ -1,0 +1,14 @@
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/CMakeFiles/edit_cache.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/CMakeFiles/WebServer.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/CMakeFiles/edit_cache.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/CMakeFiles/rebuild_cache.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/base/CMakeFiles/libserver_base.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/base/CMakeFiles/edit_cache.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/base/CMakeFiles/rebuild_cache.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/client/CMakeFiles/TreeHoleClient.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/client/CMakeFiles/edit_cache.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/client/CMakeFiles/rebuild_cache.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/test/CMakeFiles/StressTest.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/test/CMakeFiles/edit_cache.dir
+/mnt/d/Shigw/CPPpro/MyProject/TreeHoleServer/build/Debug/WebServer/test/CMakeFiles/rebuild_cache.dir
