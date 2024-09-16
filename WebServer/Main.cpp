@@ -10,27 +10,33 @@
 
 using namespace std;
 
+// 参数
+int maxItems = 10;
+std::string logPath = "./WebServer.log";
+std::string FILE_PATH = "dumpFile.txt";
 Server* myServer = nullptr;
 
-void signalHandler(int signal) {
-    std::cout << "Signal (" << signal << ") received. Shutting down..." << std::endl;
-    LOG << "Signal (" << signal << ") received. Shutting down...";
-    delete myServer;  // 调用析构函数, 写回数据
-    exit(signal);
-}
+int port = 8080;
+int threadNum = 4;
+int maxLevels = 10;
+
+void signalHandler(int signal);     // 信号处理函数，用于ctrl+c关闭服务器时调用
 
 int main(int argc, char* argv[]) {
+
+    if(argc != 4) {     // 检查是否正确调用
+        printf("Usage : %s <Port> <threadNum> <skiplistLevel>\n", argv[0]);
+        exit(1);
+    }
 
     // 绑定信号处理函数
     signal(SIGINT, signalHandler);
     signal(SIGTERM, signalHandler);
     
-    int threadNum = 4;
-    int port = 8080;
-    std::string logPath = "./WebServer.log";
-    std::string FILE_PATH = "dumpFile.txt";
-    int maxItems = 10;
-    int maxLevels = 10;
+
+    port = atoi(argv[1]);
+    threadNum = atoi(argv[2]);
+    maxLevels = atoi(argv[3]);
 
     // parse args 扩展执行程序时输入的参数
     // 待补充
@@ -48,4 +54,11 @@ int main(int argc, char* argv[]) {
     mainLoop.loop();
 
     return 0;
+}
+
+void signalHandler(int signal) {
+    std::cout << "Signal (" << signal << ") received. Shutting down..." << std::endl;
+    LOG << "Signal (" << signal << ") received. Shutting down...";
+    delete myServer;  // 调用析构函数, 写回数据
+    exit(signal);
 }
