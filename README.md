@@ -113,7 +113,9 @@ https://github.com/qinguoyi/TinyWebServer
 
 https://www.cnblogs.com/dogwealth/p/17938194
 
-Linux高性能服务器编程，游双著.
+《Linux高性能服务器编程》-游双
+
+《Linux多线程服务器编程-使用 muduo C++网络库》-陈硕
 
 
 
